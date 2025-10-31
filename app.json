@@ -15,6 +15,7 @@
     },
     "ios": {
       "bundleIdentifier": "com.zawad.linkup",
+      "googleServicesFile": "./GoogleService-Info.plist",
       "supportsTablet": true,
       "icon": "./assets/images/icon-foreground.png",
       "splash": {
@@ -47,6 +48,7 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      "./plugins/withCustomFirebaseConfig",
       [
         "expo-build-properties",
         {
