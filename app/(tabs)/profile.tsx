@@ -1,10 +1,10 @@
 import { StyleSheet, View } from 'react-native';
-import EventsScreen from '../../src/screens/EventsScreen';
+import ProfileScreen from '../../src/screens/ProfileScreen';
 
-export default function EventsTab() {
+export default function ProfileTab() {
   return (
     <View style={styles.container}>
-      <EventsScreen />
+      <ProfileScreen />
     </View>
   );
 }

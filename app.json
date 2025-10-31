@@ -1,41 +1,86 @@
 {
   "expo": {
-    "name": "linkup-mobile",
+    "name": "LinkUp",
     "slug": "linkup-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
     "scheme": "linkupmobile",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "icon": "./assets/images/icon-foreground.png",
+    "splash": {
+      "image": "./assets/images/linkup-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FF3FA7"
+    },
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.zawad.linkup",
+      "supportsTablet": true,
+      "icon": "./assets/images/icon-foreground.png",
+      "splash": {
+        "image": "./assets/images/splash-logo.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#FF3FA7"
+      },
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
+      "package": "com.zawad.linkup",
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./assets/images/icon-foreground.png",
+        "backgroundColor": "#FF3FA7"
       },
+      "icon": "./assets/images/icon-foreground.png",
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "splash": {
+        "image": "./assets/images/splash-logo.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#FF3FA7"
+      }
     },
     "web": {
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      [
+        "@react-native-firebase/app",
+        {
+          "ios": {
+            "googleServicesFile": "./GoogleService-Info.plist"
+          },
+          "android": {
+            "googleServicesFile": "./google-services.json"
+          }
+        }
+      ],
+      [
+        "expo-router",
+        {
+          "origin": "https://linkup-mobile.vercel.app"
+        }
+      ],
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
+          "image": "./assets/images/linkup-splash.png",
+          "imageWidth": 260,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#FF3FA7",
           "dark": {
-            "backgroundColor": "#000000"
+            "backgroundColor": "#FF3FA7"
           }
         }
       ]
@@ -43,6 +88,14 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {
+        "origin": "https://linkup-mobile.vercel.app"
+      },
+      "eas": {
+        "projectId": "7b35c124-604a-4ef1-af4b-47a58be01dfe"
+      }
     }
   }
 }
