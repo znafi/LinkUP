@@ -17,13 +17,13 @@ A modern React Native mobile application that brings people together through rea
 
 ---
 
-## 🎯 **Overview**
+##  **Overview**
 
 LinkUP is a cutting-edge social networking platform designed to help users discover local events, connect with like-minded individuals, and build meaningful relationships through shared experiences. The app leverages location-based services, real-time data synchronization, and modern UI/UX principles to create an engaging and intuitive user experience.
 
 ---
 
-## ✨ **Key Features**
+##  **Key Features**
 
 ### 🗺️ **Interactive Map Discovery**
 - **Real-time event visualization** on interactive maps
@@ -31,32 +31,32 @@ LinkUP is a cutting-edge social networking platform designed to help users disco
 - **Custom map markers** with event details and attendee information
 - **Geospatial queries** for finding nearby activities
 
-### 👥 **Smart Networking**
+### **Smart Networking**
 - **People discovery** algorithm with compatibility scoring
 - **Mutual friend connections** and social graph integration
 - **Distance-based filtering** for local connections
 - **Personalized recommendations** based on user preferences
 
-### 🎉 **Event Management**
+###  **Event Management**
 - **Create and host events** with comprehensive details
 - **Event categorization** (Outdoor, Food, Music, Sports, Study, Party, Coffee, Gaming)
 - **Privacy controls** (Public vs Friends-only events)
 - **Real-time attendee tracking** and RSVP management
 - **Event chat functionality** for participant coordination
 
-### 🔐 **Advanced Authentication**
+###  **Advanced Authentication**
 - **Dual-mode authentication**: Linked (full profile) vs Unlinked (browse-only)
 - **Supabase-powered secure authentication** with email/password
 - **Phone verification** and location-based registration
 - **Profile management** with avatar uploads and bio customization
 
-### 💬 **Real-time Communication**
+###  **Real-time Communication**
 - **In-app messaging** system for event participants
 - **Group chat functionality** for event coordination
 - **Push notification support** for event updates and messages
 - **Real-time synchronization** across all user devices
 
-### 🎨 **Modern UI/UX**
+### **Modern UI/UX**
 - **Gradient-based design system** with consistent theming
 - **Smooth animations** using Framer Motion and React Native Reanimated
 - **Custom bottom navigation** with contextual hiding
@@ -65,7 +65,7 @@ LinkUP is a cutting-edge social networking platform designed to help users disco
 
 ---
 
-## 🛠 **Technical Architecture**
+##  **Technical Architecture**
 
 ### **Frontend Stack**
 ```
@@ -258,7 +258,7 @@ npm run web
 
 ---
 
-## 🚀 **Performance Optimizations**
+##  **Performance Optimizations**
 
 ### **Rendering Optimizations**
 - **FlatList components** with memoization for large datasets
@@ -280,7 +280,7 @@ npm run web
 
 ---
 
-## 🔒 **Security Features**
+##  **Security Features**
 
 ### **Authentication Security**
 - **JWT token management** with automatic refresh
@@ -302,7 +302,7 @@ npm run web
 
 ---
 
-## 🧪 **Testing Strategy**
+##  **Testing Strategy**
 
 ### **Unit Testing**
 - **Component testing** with React Native Testing Library
@@ -324,7 +324,7 @@ npm run web
 
 ---
 
-## 📈 **Scalability Considerations**
+## **Scalability Considerations**
 
 ### **Database Scaling**
 - **Supabase PostgreSQL** with automatic scaling
@@ -346,7 +346,7 @@ npm run web
 
 ---
 
-## 🎨 **Design System**
+## **Design System**
 
 ### **Color Palette**
 ```css
@@ -373,7 +373,7 @@ npm run web
 
 ---
 
-## 🔄 **Continuous Integration/Deployment**
+## **Continuous Integration/Deployment**
 
 ### **Build Pipeline**
 ```yaml
@@ -407,7 +407,7 @@ npm run web
 
 ---
 
-## 📱 **Platform-Specific Features**
+##  **Platform-Specific Features**
 
 ### **iOS Features**
 - **Native iOS integration** with Expo modules
@@ -457,7 +457,7 @@ npm run web
 
 ---
 
-## 🤝 **Contributing Guidelines**
+## **Contributing Guidelines**
 
 ### **Development Workflow**
 1. **Fork the repository** and create feature branch
